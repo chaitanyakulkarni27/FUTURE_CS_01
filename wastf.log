@@ -1,0 +1,405 @@
+2025-12-20 13:36:48,193 - __main__ - INFO - Starting comprehensive scan of http://testphp.vulnweb.com
+2025-12-20 13:36:49,224 - __main__ - ERROR - Tech detection error: 'str' object has no attribute 'append'
+2025-12-20 13:36:49,224 - __main__ - INFO - Technology detected: {'error': "'str' object has no attribute 'append'"}
+2025-12-20 13:36:54,141 - __main__ - INFO - Found 26 URLs to test
+2025-12-20 13:36:54,142 - __main__ - INFO - Testing URL 1/26: http://testphp.vulnweb.com
+2025-12-20 13:36:54,142 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com
+2025-12-20 13:36:54,142 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com
+2025-12-20 13:36:54,142 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com
+2025-12-20 13:36:54,142 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com
+2025-12-20 13:36:54,142 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:36:54,142 - __main__ - INFO - Testing URL 2/26: http://testphp.vulnweb.com/listproducts.php?cat=2
+2025-12-20 13:36:54,142 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/listproducts.php?cat=2
+2025-12-20 13:36:54,541 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/listproducts.php?cat=2
+2025-12-20 13:36:54,872 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/listproducts.php?cat=2
+2025-12-20 13:36:57,695 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/listproducts.php?cat=2
+2025-12-20 13:37:00,265 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:00,265 - __main__ - INFO - Testing URL 3/26: http://testphp.vulnweb.com/artists.php?artist=1
+2025-12-20 13:37:00,265 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/artists.php?artist=1
+2025-12-20 13:37:00,572 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/artists.php?artist=1
+2025-12-20 13:37:00,904 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/artists.php?artist=1
+2025-12-20 13:37:03,557 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/artists.php?artist=1
+2025-12-20 13:37:06,215 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:06,216 - __main__ - INFO - Testing URL 4/26: http://testphp.vulnweb.com/hpp/?pp=12
+2025-12-20 13:37:06,216 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/hpp/?pp=12
+2025-12-20 13:37:09,491 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/hpp/?pp=12
+2025-12-20 13:37:09,796 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/hpp/?pp=12
+2025-12-20 13:37:12,215 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/hpp/?pp=12
+2025-12-20 13:37:14,714 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:14,714 - __main__ - INFO - Testing URL 5/26: http://testphp.vulnweb.com/listproducts.php?cat=1
+2025-12-20 13:37:14,715 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/listproducts.php?cat=1
+2025-12-20 13:37:15,018 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/listproducts.php?cat=1
+2025-12-20 13:37:15,316 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/listproducts.php?cat=1
+2025-12-20 13:37:17,853 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/listproducts.php?cat=1
+2025-12-20 13:37:20,285 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:20,286 - __main__ - INFO - Testing URL 6/26: http://testphp.vulnweb.com/guestbook.php
+2025-12-20 13:37:20,286 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/guestbook.php
+2025-12-20 13:37:20,286 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/guestbook.php
+2025-12-20 13:37:20,287 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/guestbook.php
+2025-12-20 13:37:20,287 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/guestbook.php
+2025-12-20 13:37:20,287 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:20,287 - __main__ - INFO - Testing URL 7/26: http://testphp.vulnweb.com/hpp/
+2025-12-20 13:37:20,287 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/hpp/
+2025-12-20 13:37:20,287 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/hpp/
+2025-12-20 13:37:20,288 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/hpp/
+2025-12-20 13:37:20,288 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/hpp/
+2025-12-20 13:37:20,288 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:20,288 - __main__ - INFO - Testing URL 8/26: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2025-12-20 13:37:20,288 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2025-12-20 13:37:20,288 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2025-12-20 13:37:20,288 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2025-12-20 13:37:20,289 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2025-12-20 13:37:20,289 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:20,289 - __main__ - INFO - Testing URL 9/26: http://testphp.vulnweb.com/index.php
+2025-12-20 13:37:20,289 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/index.php
+2025-12-20 13:37:20,289 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/index.php
+2025-12-20 13:37:20,289 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/index.php
+2025-12-20 13:37:20,289 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/index.php
+2025-12-20 13:37:20,289 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:20,290 - __main__ - INFO - Testing URL 10/26: http://testphp.vulnweb.com/disclaimer.php
+2025-12-20 13:37:20,290 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/disclaimer.php
+2025-12-20 13:37:20,290 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/disclaimer.php
+2025-12-20 13:37:20,290 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/disclaimer.php
+2025-12-20 13:37:20,290 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/disclaimer.php
+2025-12-20 13:37:20,290 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:20,290 - __main__ - INFO - Testing URL 11/26: http://testphp.vulnweb.com/artists.php?artist=2
+2025-12-20 13:37:20,290 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/artists.php?artist=2
+2025-12-20 13:37:20,598 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/artists.php?artist=2
+2025-12-20 13:37:20,902 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/artists.php?artist=2
+2025-12-20 13:37:23,786 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/artists.php?artist=2
+2025-12-20 13:37:26,298 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:26,299 - __main__ - INFO - Testing URL 12/26: http://testphp.vulnweb.com/login.php
+2025-12-20 13:37:26,299 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/login.php
+2025-12-20 13:37:26,300 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/login.php
+2025-12-20 13:37:26,300 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/login.php
+2025-12-20 13:37:26,300 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/login.php
+2025-12-20 13:37:26,300 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:26,300 - __main__ - INFO - Testing URL 13/26: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+2025-12-20 13:37:26,301 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+2025-12-20 13:37:26,301 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+2025-12-20 13:37:26,301 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+2025-12-20 13:37:26,301 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+2025-12-20 13:37:26,301 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:26,301 - __main__ - INFO - Testing URL 14/26: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+2025-12-20 13:37:26,302 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+2025-12-20 13:37:26,302 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+2025-12-20 13:37:26,302 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+2025-12-20 13:37:26,302 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+2025-12-20 13:37:26,302 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:26,302 - __main__ - INFO - Testing URL 15/26: http://testphp.vulnweb.com/listproducts.php?cat=3
+2025-12-20 13:37:26,302 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/listproducts.php?cat=3
+2025-12-20 13:37:26,598 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/listproducts.php?cat=3
+2025-12-20 13:37:26,890 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/listproducts.php?cat=3
+2025-12-20 13:37:29,350 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/listproducts.php?cat=3
+2025-12-20 13:37:32,020 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:32,020 - __main__ - INFO - Testing URL 16/26: http://testphp.vulnweb.com/privacy.php
+2025-12-20 13:37:32,020 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/privacy.php
+2025-12-20 13:37:32,021 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/privacy.php
+2025-12-20 13:37:32,021 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/privacy.php
+2025-12-20 13:37:32,021 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/privacy.php
+2025-12-20 13:37:32,021 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:32,021 - __main__ - INFO - Testing URL 17/26: http://testphp.vulnweb.com/artists.php?artist=3
+2025-12-20 13:37:32,021 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/artists.php?artist=3
+2025-12-20 13:37:32,347 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/artists.php?artist=3
+2025-12-20 13:37:32,644 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/artists.php?artist=3
+2025-12-20 13:37:35,286 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/artists.php?artist=3
+2025-12-20 13:37:37,889 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:37,889 - __main__ - INFO - Testing URL 18/26: http://testphp.vulnweb.com/artists.php
+2025-12-20 13:37:37,890 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/artists.php
+2025-12-20 13:37:37,890 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/artists.php
+2025-12-20 13:37:37,890 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/artists.php
+2025-12-20 13:37:37,890 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/artists.php
+2025-12-20 13:37:37,890 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:37,890 - __main__ - INFO - Testing URL 19/26: http://testphp.vulnweb.com/cart.php
+2025-12-20 13:37:37,890 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/cart.php
+2025-12-20 13:37:37,890 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/cart.php
+2025-12-20 13:37:37,890 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/cart.php
+2025-12-20 13:37:37,890 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/cart.php
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing URL 20/26: http://testphp.vulnweb.com/AJAX/index.php
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/AJAX/index.php
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/AJAX/index.php
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/AJAX/index.php
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/AJAX/index.php
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing URL 21/26: http://testphp.vulnweb.com/categories.php
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/categories.php
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/categories.php
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/categories.php
+2025-12-20 13:37:37,891 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/categories.php
+2025-12-20 13:37:37,892 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:37,892 - __main__ - INFO - Testing URL 22/26: http://testphp.vulnweb.com/userinfo.php
+2025-12-20 13:37:37,892 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/userinfo.php
+2025-12-20 13:37:37,892 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/userinfo.php
+2025-12-20 13:37:37,892 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/userinfo.php
+2025-12-20 13:37:37,892 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/userinfo.php
+2025-12-20 13:37:37,892 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:37,892 - __main__ - INFO - Testing URL 23/26: http://testphp.vulnweb.com/listproducts.php?cat=4
+2025-12-20 13:37:37,892 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/listproducts.php?cat=4
+2025-12-20 13:37:38,193 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/listproducts.php?cat=4
+2025-12-20 13:37:38,582 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/listproducts.php?cat=4
+2025-12-20 13:37:41,702 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/listproducts.php?cat=4
+2025-12-20 13:37:44,369 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:44,370 - __main__ - INFO - Testing URL 24/26: http://testphp.vulnweb.com/signup.php
+2025-12-20 13:37:44,370 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/signup.php
+2025-12-20 13:37:44,371 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/signup.php
+2025-12-20 13:37:44,371 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/signup.php
+2025-12-20 13:37:44,371 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/signup.php
+2025-12-20 13:37:44,371 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:44,371 - __main__ - INFO - Testing URL 25/26: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+2025-12-20 13:37:44,371 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+2025-12-20 13:37:44,371 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+2025-12-20 13:37:44,372 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+2025-12-20 13:37:44,372 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+2025-12-20 13:37:44,372 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:44,372 - __main__ - INFO - Testing URL 26/26: http://testphp.vulnweb.com/search.php?test=query
+2025-12-20 13:37:44,372 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/search.php?test=query
+2025-12-20 13:37:44,669 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/search.php?test=query
+2025-12-20 13:37:46,131 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/search.php?test=query
+2025-12-20 13:37:48,673 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/search.php?test=query
+2025-12-20 13:37:51,224 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 13:37:51,225 - __main__ - INFO - Testing security headers
+2025-12-20 13:37:51,545 - __main__ - INFO - Testing directory listing
+2025-12-20 13:37:52,149 - __main__ - INFO - Testing HTTP methods
+2025-12-20 13:37:54,025 - __main__ - INFO - Testing authentication flaws
+2025-12-20 13:37:56,111 - __main__ - INFO - Testing CSRF vulnerabilities
+2025-12-20 13:37:56,420 - __main__ - INFO - Scan completed. Found 24 vulnerabilities.
+2025-12-20 15:43:51,870 - __main__ - INFO - Starting comprehensive scan of http://example.com
+2025-12-20 15:43:52,102 - __main__ - INFO - Technology detected: {'server': 'cloudflare'}
+2025-12-20 15:43:52,187 - __main__ - INFO - Found 1 URLs to test
+2025-12-20 15:43:52,187 - __main__ - INFO - Testing URL 1/1: http://example.com
+2025-12-20 15:43:52,187 - __main__ - INFO - Testing SQL Injection on: http://example.com
+2025-12-20 15:43:52,187 - __main__ - INFO - Testing XSS on: http://example.com
+2025-12-20 15:43:52,187 - __main__ - INFO - Testing File Inclusion on: http://example.com
+2025-12-20 15:43:52,187 - __main__ - INFO - Testing Command Injection on: http://example.com
+2025-12-20 15:43:52,187 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:43:52,188 - __main__ - INFO - Testing security headers
+2025-12-20 15:43:52,276 - __main__ - INFO - Testing directory listing
+2025-12-20 15:43:53,240 - __main__ - INFO - Testing HTTP methods
+2025-12-20 15:43:53,823 - __main__ - INFO - Testing authentication flaws
+2025-12-20 15:43:54,254 - __main__ - INFO - Testing CSRF vulnerabilities
+2025-12-20 15:43:54,322 - __main__ - INFO - Scan completed. Found 5 vulnerabilities.
+2025-12-20 15:44:07,116 - __main__ - INFO - Starting comprehensive scan of http://example.com
+2025-12-20 15:44:07,304 - __main__ - INFO - Technology detected: {'server': 'cloudflare'}
+2025-12-20 15:44:07,410 - __main__ - INFO - Found 1 URLs to test
+2025-12-20 15:44:07,410 - __main__ - INFO - Testing URL 1/1: http://example.com
+2025-12-20 15:44:07,410 - __main__ - INFO - Testing SQL Injection on: http://example.com
+2025-12-20 15:44:07,410 - __main__ - INFO - Testing XSS on: http://example.com
+2025-12-20 15:44:07,410 - __main__ - INFO - Testing File Inclusion on: http://example.com
+2025-12-20 15:44:07,411 - __main__ - INFO - Testing Command Injection on: http://example.com
+2025-12-20 15:44:07,411 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:44:07,411 - __main__ - INFO - Testing security headers
+2025-12-20 15:44:07,509 - __main__ - INFO - Testing directory listing
+2025-12-20 15:44:08,596 - __main__ - INFO - Testing HTTP methods
+2025-12-20 15:44:09,126 - __main__ - INFO - Testing authentication flaws
+2025-12-20 15:44:09,610 - __main__ - INFO - Testing CSRF vulnerabilities
+2025-12-20 15:44:09,692 - __main__ - INFO - Scan completed. Found 5 vulnerabilities.
+2025-12-20 15:44:56,497 - __main__ - INFO - Starting comprehensive scan of http://example.com
+2025-12-20 15:44:56,737 - __main__ - INFO - Technology detected: {'server': 'cloudflare'}
+2025-12-20 15:44:56,848 - __main__ - INFO - Found 1 URLs to test
+2025-12-20 15:44:56,848 - __main__ - INFO - Testing URL 1/1: http://example.com
+2025-12-20 15:44:56,848 - __main__ - INFO - Testing SQL Injection on: http://example.com
+2025-12-20 15:44:56,848 - __main__ - INFO - Testing XSS on: http://example.com
+2025-12-20 15:44:56,849 - __main__ - INFO - Testing File Inclusion on: http://example.com
+2025-12-20 15:44:56,849 - __main__ - INFO - Testing Command Injection on: http://example.com
+2025-12-20 15:44:56,849 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:44:56,849 - __main__ - INFO - Testing security headers
+2025-12-20 15:44:56,944 - __main__ - INFO - Testing directory listing
+2025-12-20 15:44:58,023 - __main__ - INFO - Testing HTTP methods
+2025-12-20 15:44:58,569 - __main__ - INFO - Testing authentication flaws
+2025-12-20 15:44:59,221 - __main__ - INFO - Testing CSRF vulnerabilities
+2025-12-20 15:44:59,321 - __main__ - INFO - Scan completed. Found 5 vulnerabilities.
+2025-12-20 15:44:59,325 - __main__ - INFO - HTML report saved to: security_report_20251220_154459.html
+2025-12-20 15:45:05,043 - __main__ - INFO - Starting comprehensive scan of http://example.com
+2025-12-20 15:45:05,959 - __main__ - INFO - Technology detected: {'server': 'cloudflare'}
+2025-12-20 15:45:06,068 - __main__ - INFO - Found 1 URLs to test
+2025-12-20 15:45:06,068 - __main__ - INFO - Testing URL 1/1: http://example.com
+2025-12-20 15:45:06,069 - __main__ - INFO - Testing SQL Injection on: http://example.com
+2025-12-20 15:45:06,069 - __main__ - INFO - Testing XSS on: http://example.com
+2025-12-20 15:45:06,069 - __main__ - INFO - Testing File Inclusion on: http://example.com
+2025-12-20 15:45:06,069 - __main__ - INFO - Testing Command Injection on: http://example.com
+2025-12-20 15:45:06,069 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:45:06,070 - __main__ - INFO - Testing security headers
+2025-12-20 15:45:06,150 - __main__ - INFO - Testing directory listing
+2025-12-20 15:45:07,059 - __main__ - INFO - Testing HTTP methods
+2025-12-20 15:45:07,567 - __main__ - INFO - Testing authentication flaws
+2025-12-20 15:45:08,119 - __main__ - INFO - Testing CSRF vulnerabilities
+2025-12-20 15:45:08,210 - __main__ - INFO - Scan completed. Found 5 vulnerabilities.
+2025-12-20 15:45:08,212 - __main__ - INFO - HTML report saved to: security_report_20251220_154508.html
+2025-12-20 15:45:38,047 - __main__ - INFO - Starting comprehensive scan of http://example.com
+2025-12-20 15:45:38,476 - __main__ - INFO - Technology detected: {'server': 'cloudflare'}
+2025-12-20 15:45:38,568 - __main__ - INFO - Found 1 URLs to test
+2025-12-20 15:45:38,568 - __main__ - INFO - Testing URL 1/1: http://example.com
+2025-12-20 15:45:38,568 - __main__ - INFO - Testing SQL Injection on: http://example.com
+2025-12-20 15:45:38,568 - __main__ - INFO - Testing XSS on: http://example.com
+2025-12-20 15:45:38,568 - __main__ - INFO - Testing security headers
+2025-12-20 15:45:38,664 - __main__ - INFO - Testing directory listing
+2025-12-20 15:45:39,893 - __main__ - INFO - Testing HTTP methods
+2025-12-20 15:45:40,398 - __main__ - INFO - Scan completed. Found 5 vulnerabilities.
+2025-12-20 15:45:40,401 - __main__ - INFO - HTML report saved to: security_report_20251220_154540.html
+2025-12-20 15:47:32,093 - __main__ - INFO - Starting comprehensive scan of http://testphp.vulnweb.com
+2025-12-20 15:47:33,833 - __main__ - ERROR - Tech detection error: 'str' object has no attribute 'append'
+2025-12-20 15:47:33,834 - __main__ - INFO - Technology detected: {'error': "'str' object has no attribute 'append'"}
+2025-12-20 15:47:39,278 - __main__ - INFO - Found 26 URLs to test
+2025-12-20 15:47:39,278 - __main__ - INFO - Testing URL 1/26: http://testphp.vulnweb.com/userinfo.php
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/userinfo.php
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/userinfo.php
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/userinfo.php
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/userinfo.php
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing URL 2/26: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing URL 3/26: http://testphp.vulnweb.com/listproducts.php?cat=1
+2025-12-20 15:47:39,279 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/listproducts.php?cat=1
+2025-12-20 15:47:39,769 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/listproducts.php?cat=1
+2025-12-20 15:47:40,068 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/listproducts.php?cat=1
+2025-12-20 15:47:42,634 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/listproducts.php?cat=1
+2025-12-20 15:47:45,392 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:47:45,393 - __main__ - INFO - Testing URL 4/26: http://testphp.vulnweb.com/artists.php?artist=1
+2025-12-20 15:47:45,393 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/artists.php?artist=1
+2025-12-20 15:47:45,702 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/artists.php?artist=1
+2025-12-20 15:47:46,112 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/artists.php?artist=1
+2025-12-20 15:47:48,786 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/artists.php?artist=1
+2025-12-20 15:47:51,170 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:47:51,170 - __main__ - INFO - Testing URL 5/26: http://testphp.vulnweb.com/artists.php?artist=2
+2025-12-20 15:47:51,171 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/artists.php?artist=2
+2025-12-20 15:47:51,469 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/artists.php?artist=2
+2025-12-20 15:47:51,774 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/artists.php?artist=2
+2025-12-20 15:47:54,306 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/artists.php?artist=2
+2025-12-20 15:47:56,816 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:47:56,816 - __main__ - INFO - Testing URL 6/26: http://testphp.vulnweb.com/guestbook.php
+2025-12-20 15:47:56,816 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/guestbook.php
+2025-12-20 15:47:56,816 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/guestbook.php
+2025-12-20 15:47:56,817 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/guestbook.php
+2025-12-20 15:47:56,817 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/guestbook.php
+2025-12-20 15:47:56,817 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:47:56,817 - __main__ - INFO - Testing URL 7/26: http://testphp.vulnweb.com/index.php
+2025-12-20 15:47:56,817 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/index.php
+2025-12-20 15:47:56,817 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/index.php
+2025-12-20 15:47:56,817 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/index.php
+2025-12-20 15:47:56,817 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/index.php
+2025-12-20 15:47:56,818 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:47:56,818 - __main__ - INFO - Testing URL 8/26: http://testphp.vulnweb.com/AJAX/index.php
+2025-12-20 15:47:56,818 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/AJAX/index.php
+2025-12-20 15:47:56,818 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/AJAX/index.php
+2025-12-20 15:47:56,820 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/AJAX/index.php
+2025-12-20 15:47:56,820 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/AJAX/index.php
+2025-12-20 15:47:56,820 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:47:56,820 - __main__ - INFO - Testing URL 9/26: http://testphp.vulnweb.com/listproducts.php?cat=3
+2025-12-20 15:47:56,820 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/listproducts.php?cat=3
+2025-12-20 15:47:57,125 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/listproducts.php?cat=3
+2025-12-20 15:47:57,479 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/listproducts.php?cat=3
+2025-12-20 15:48:00,136 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/listproducts.php?cat=3
+2025-12-20 15:48:02,525 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:02,525 - __main__ - INFO - Testing URL 10/26: http://testphp.vulnweb.com/listproducts.php?cat=4
+2025-12-20 15:48:02,525 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/listproducts.php?cat=4
+2025-12-20 15:48:02,814 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/listproducts.php?cat=4
+2025-12-20 15:48:03,151 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/listproducts.php?cat=4
+2025-12-20 15:48:05,761 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/listproducts.php?cat=4
+2025-12-20 15:48:08,846 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:08,847 - __main__ - INFO - Testing URL 11/26: http://testphp.vulnweb.com/login.php
+2025-12-20 15:48:08,847 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/login.php
+2025-12-20 15:48:08,847 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/login.php
+2025-12-20 15:48:08,848 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/login.php
+2025-12-20 15:48:08,848 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/login.php
+2025-12-20 15:48:08,848 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:08,848 - __main__ - INFO - Testing URL 12/26: http://testphp.vulnweb.com/categories.php
+2025-12-20 15:48:08,848 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/categories.php
+2025-12-20 15:48:08,848 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/categories.php
+2025-12-20 15:48:08,849 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/categories.php
+2025-12-20 15:48:08,849 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/categories.php
+2025-12-20 15:48:08,849 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:08,849 - __main__ - INFO - Testing URL 13/26: http://testphp.vulnweb.com/listproducts.php?cat=2
+2025-12-20 15:48:08,849 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/listproducts.php?cat=2
+2025-12-20 15:48:09,145 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/listproducts.php?cat=2
+2025-12-20 15:48:09,443 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/listproducts.php?cat=2
+2025-12-20 15:48:12,123 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/listproducts.php?cat=2
+2025-12-20 15:48:15,093 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:15,094 - __main__ - INFO - Testing URL 14/26: http://testphp.vulnweb.com/hpp/?pp=12
+2025-12-20 15:48:15,094 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/hpp/?pp=12
+2025-12-20 15:48:18,470 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/hpp/?pp=12
+2025-12-20 15:48:18,761 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/hpp/?pp=12
+2025-12-20 15:48:21,371 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/hpp/?pp=12
+2025-12-20 15:48:24,127 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:24,128 - __main__ - INFO - Testing URL 15/26: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+2025-12-20 15:48:24,128 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+2025-12-20 15:48:24,128 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+2025-12-20 15:48:24,128 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+2025-12-20 15:48:24,128 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+2025-12-20 15:48:24,128 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:24,128 - __main__ - INFO - Testing URL 16/26: http://testphp.vulnweb.com/cart.php
+2025-12-20 15:48:24,128 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/cart.php
+2025-12-20 15:48:24,129 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/cart.php
+2025-12-20 15:48:24,129 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/cart.php
+2025-12-20 15:48:24,129 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/cart.php
+2025-12-20 15:48:24,129 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:24,129 - __main__ - INFO - Testing URL 17/26: http://testphp.vulnweb.com/disclaimer.php
+2025-12-20 15:48:24,129 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/disclaimer.php
+2025-12-20 15:48:24,129 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/disclaimer.php
+2025-12-20 15:48:24,129 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/disclaimer.php
+2025-12-20 15:48:24,129 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/disclaimer.php
+2025-12-20 15:48:24,130 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:24,130 - __main__ - INFO - Testing URL 18/26: http://testphp.vulnweb.com/search.php?test=query
+2025-12-20 15:48:24,130 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/search.php?test=query
+2025-12-20 15:48:24,461 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/search.php?test=query
+2025-12-20 15:48:26,013 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/search.php?test=query
+2025-12-20 15:48:28,424 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/search.php?test=query
+2025-12-20 15:48:30,901 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:30,901 - __main__ - INFO - Testing URL 19/26: http://testphp.vulnweb.com/hpp/
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/hpp/
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/hpp/
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/hpp/
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/hpp/
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing URL 20/26: http://testphp.vulnweb.com/artists.php
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/artists.php
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/artists.php
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/artists.php
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/artists.php
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing URL 21/26: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+2025-12-20 15:48:30,902 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+2025-12-20 15:48:30,903 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing URL 22/26: http://testphp.vulnweb.com
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing URL 23/26: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:30,904 - __main__ - INFO - Testing URL 24/26: http://testphp.vulnweb.com/privacy.php
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/privacy.php
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/privacy.php
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/privacy.php
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/privacy.php
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing URL 25/26: http://testphp.vulnweb.com/signup.php
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/signup.php
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/signup.php
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/signup.php
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/signup.php
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing URL 26/26: http://testphp.vulnweb.com/artists.php?artist=3
+2025-12-20 15:48:30,905 - __main__ - INFO - Testing SQL Injection on: http://testphp.vulnweb.com/artists.php?artist=3
+2025-12-20 15:48:31,214 - __main__ - INFO - Testing XSS on: http://testphp.vulnweb.com/artists.php?artist=3
+2025-12-20 15:48:31,514 - __main__ - INFO - Testing File Inclusion on: http://testphp.vulnweb.com/artists.php?artist=3
+2025-12-20 15:48:33,913 - __main__ - INFO - Testing Command Injection on: http://testphp.vulnweb.com/artists.php?artist=3
+2025-12-20 15:48:36,499 - __main__ - INFO - Testing IDOR vulnerabilities
+2025-12-20 15:48:36,499 - __main__ - INFO - Testing security headers
+2025-12-20 15:48:36,800 - __main__ - INFO - Testing directory listing
+2025-12-20 15:48:37,493 - __main__ - INFO - Testing HTTP methods
+2025-12-20 15:48:39,318 - __main__ - INFO - Testing authentication flaws
+2025-12-20 15:48:41,254 - __main__ - INFO - Testing CSRF vulnerabilities
+2025-12-20 15:48:41,551 - __main__ - INFO - Scan completed. Found 24 vulnerabilities.
