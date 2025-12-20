@@ -21,7 +21,7 @@ WASTF is a comprehensive framework for testing web application security, offerin
 
 1. Clone/download the repo and enter the directory:
     ```bash
-    cd 'web application security'
+    cd 'FUTURE_CS_01'
     ```
 2. Install all dependencies:
     ```bash
