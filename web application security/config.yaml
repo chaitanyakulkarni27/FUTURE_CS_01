@@ -1,0 +1,13 @@
+scanner:
+  timeout: 10
+  max_depth: 3
+  user_agent: "WASTF-Scanner/2.0"
+  
+wordlists:
+  sqli: ["'", "' OR '1'='1", "' UNION SELECT NULL--"]
+  xss: ["<script>alert('XSS')</script>", "<img src=x onerror=alert('XSS')>"]
+  
+reporting:
+  output_dir: "./reports"
+  formats: ["html", "json"]
+  include_tech_info: true
