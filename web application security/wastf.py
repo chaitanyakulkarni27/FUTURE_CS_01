@@ -1607,7 +1607,7 @@ class EnhancedReportGenerator:
                     
                     <div class="footer">
                         <p>Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
-                        <p>© 2024 Web Application Security Testing Framework | Version 2.0</p>
+                        <p>© 2025 Web Application Security Testing Framework | Version 1.0</p>
                     </div>
                 </div>
             </div>
