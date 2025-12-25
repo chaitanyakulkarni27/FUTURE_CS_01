@@ -15,26 +15,27 @@ WASTF is a comprehensive framework for testing web application security, offerin
 
 ---
 
-## Installation
+## Development Setup
+```bash
+# Clone and setup development environment
+git clone https://github.com/yourusername/wastf.git
+cd wastf
+python -m venv venv
 
-**Requirements:** Python 3.7+
+# Activate virtual environment
+# On Windows: venv\Scripts\activate
+# On Linux/Mac: source venv/bin/activate
 
-1. Clone/download the repo and enter the directory:
-    ```bash
-    cd 'web application security'
-    ```
-2. Install all dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-   _or, for only core CLI:_
-    ```bash
-    pip install requests beautifulsoup4 PySimpleGUI colorama
-    ```
+# Install development dependencies
+pip install -r requirements-dev.txt
 
-_Optional: For advanced scans, ensure Nmap, ChromeDriver/geckodriver, etc. are accessible for your OS._
+# Run tests
+pytest tests/
 
----
+# Format code
+black wastf.py
+
+```
 
 ## Usage
 
@@ -51,6 +52,45 @@ If you have PySimpleGUI installed, open the GUI:
 ```bash
 python3 wastf.py --gui
 ```
+### Test a Website
+```bash
+# Basic scan
+python wastf.py https://yourwebsite.com
+
+# Quick scan (limited payloads)
+python wastf.py https://yourwebsite.com --quick
+# Test specific vulnerabilities
+python wastf.py https://yourwebsite.com -t sql xss auth
+
+# Generate JSON report for automation
+python wastf.py https://yourwebsite.com -o json
+```
+
+### Basic Usage
+```bash
+# GUI Mode (Recommended for beginners)
+python wastf.py
+
+# CLI Mode (For automation)
+python wastf.py http://example.com
+
+# Run specific tests
+python wastf.py http://example.com -t sql xss
+
+# Generate HTML report
+python wastf.py http://example.com -o html
+```
+### Issue: GUI not opening
+```bash
+# Solution: Install PySimpleGUI
+pip install PySimpleGUI
+# Or use CLI mode
+python wastf.py http://example.com --no-gui
+```
+
+
+
+
 
 ### Reports
 - **HTML**: User-friendly overview (default)
